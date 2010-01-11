@@ -9,6 +9,17 @@ doing the same thing with CSS files.
 
 See index.html for usage.
 Thanks.
+==============
+
+One wonders how the image file problem is solved by this. Simple enough.
+Embed the images in the stylesheet using data URLs. Voila! The one small
+caveat to this is if you have many images and only 1 needs to change.
+You could have many small stylesheets to work around this.
+
+See Sveinbjorn Thordarson's nice piece on Using Data URLs Effectively
+With Cascading Style Sheets.
+
+Thanks.
 
 *DBScriptCache*  
 *by Ian Collins (3n)*

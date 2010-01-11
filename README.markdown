@@ -1,3 +1,15 @@
+*DBScriptCache-with-CSS*
+*by Sid Debgupta (siddeb)*
+
+In a iPhone app hosted in UIWebView, cache manifest is not supported yet. So
+I wanted to have some mechanism to store js, css and image files into a local
+database and load it from there is the version has not changed. Ian's code
+was a starting point. My JS files worked just fine. I added some support for
+doing the same thing with CSS files.
+
+See index.html for usage.
+Thanks.
+
 *DBScriptCache*  
 *by Ian Collins (3n)*
 
